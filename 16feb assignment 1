@@ -1,0 +1,13 @@
+n=int(input('enter number')) 
+i=0 
+While i<n:
+  Print(i*i)
+  i=i+1 
+
+
+
+O/P
+enter number:3
+0
+1
+4
