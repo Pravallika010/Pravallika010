@@ -1,4 +1,4 @@
-n=int(input('enter number')) 
+n=int(input('enter number:')) 
 i=0 
 While i<n:
   Print(i*i)
