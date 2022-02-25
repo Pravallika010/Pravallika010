@@ -1,0 +1,28 @@
+n=int(input('enter number:')) 
+l=[]
+t=[]
+for i in range(n):
+    x=int(input())
+    l.append(x)
+x=0
+for i in range(n):
+    if l[i]>0:
+        t.append(l[i])
+        x=x+1
+for i in range(x,n):
+    l.remove(0)
+print('count the number:',x)
+print(l)
+
+
+
+
+O/P
+enter number:5
+0
+1
+2
+0
+4
+count the number:3
+[1,2,4]
