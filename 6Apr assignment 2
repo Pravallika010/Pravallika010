@@ -1,0 +1,6 @@
+emp={1:['kishore','officer','2022-06-05',35000,'chennai'],2:['pravallika','ceo','2014-02-23',900000,'hyderabad'],3:['riyan','manager','2021-06-16',300000,'benglore']}
+x=int(input('enter empno:'))
+print('employee city:',emp[x][4])
+print('employee salary:',emp[x][3])
+print('employee date of joining:',emp[x][2])
+print('employee name:',emp[x][0])
