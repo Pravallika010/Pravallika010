@@ -1,0 +1,14 @@
+stu={1:['pravallika','female','mpcs','pass'],8:['sravs','female','mpcs','fail'],4:['ravi','male','mpc','pass']}
+x=int(input('enter the stu no:'))
+print('name of the student:',stu[x][0])
+print('student result:',stu[x][3])
+print('student gender:',stu[x][1])
+
+
+O/P
+enter the stu no:8
+name of the student:sravs
+student result:fail
+student gender:female
+
+
